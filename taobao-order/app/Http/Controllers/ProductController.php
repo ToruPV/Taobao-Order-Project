@@ -20,8 +20,8 @@ class ProductController extends Controller
     {
     $viewData= [];
     $product = Product::findOrFail($id);
-    $viewData["title"] = $product["name"] . " - Dịch vụ Order Taobao-Wechat";
-    $viewData["subtitle"] = $product["name"] . " - hông tin sản phẩm";
+    $viewData["title"] = $product ->getName() . " - Dịch vụ Order Taobao-Wechat";
+    $viewData["subtitle"] = $product ->getName() . " - Thông tin sản phẩm";
     $viewData["product"] = $product;
     return view('product.show')->with("viewData", $viewData);
     }
