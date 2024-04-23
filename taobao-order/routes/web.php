@@ -19,4 +19,10 @@ Route::get('/products',
 'App\Http\Controllers\ProductController@index')->name("product.index");
  Route::get('/products/{id}', 
 'App\Http\Controllers\ProductController@show')->name("product.show");
+//Định tuyến trang Admin
+Route::get('/admin', 
+'App\Http\Controllers\Admin\AdminHomeController@index')->name("admin.home.index");
+//Định tuyến tảng danh sách sản phẩm của phần Admin
+Route::get('/admin/products', 
+'App\Http\Controllers\Admin\AdminProductController@index')->name("admin.product.index");
 
