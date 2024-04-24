@@ -33,7 +33,7 @@
 <!-- sidebar -->
         <div class="col content-grey">
             <nav class="p-3 shadow text-end">
-                <span class="profile-font">Qaunr trị viên</span>
+                <span class="profile-font">Quản trị viên</span>
                 <img class="img-profile rounded-circle" src="{{ asset('/images/undraw_profile.svg') }}">
             </nav>
             <div class="g-0 m-5">
@@ -46,8 +46,8 @@
         <div class="container">
             <small>
                 Copyright - <a class="text-reset fw-bold text-decoration-none" target="_blank"
-                    href="https://twitter.com/danielgarax">
-                    Daniel Correa
+                    href="https://instagram.com/dinhtai_102">
+                    Nguyễn Đình Tài
                 </a>
             </small>
         </div>
